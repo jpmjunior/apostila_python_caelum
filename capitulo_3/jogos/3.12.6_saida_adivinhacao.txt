@@ -1,0 +1,8 @@
+PS C:\Users\jpmou\OneDrive\developer\python\curso_pyhton_caelum\capitulo_3.12\jogos> python adivinhacao.py
+******************************
+*    Jogo da adivinhação     *
+******************************
+Digite o seu número: 42
+Você digitou:  42
+Você errou!
+PS C:\Users\jpmou\OneDrive\developer\python\curso_pyhton_caelum\capitulo_3.12\jogos>
