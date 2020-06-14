@@ -3,7 +3,7 @@
 # Autor: Pinheiro Jr.
 # Data: 14/06/2020
 
-print('******************************')
+print('\n******************************')
 print('*    Jogo da adivinhação     *')
 print('******************************')
 
@@ -12,7 +12,7 @@ total_de_tentativas = 3
 rodada = 1
 
 while(total_de_tentativas > 0):
-    print('Tentativa {} de {}'.format(rodada, total_de_tentativas))
+    print('\nTentativa {} de {}'.format(rodada, total_de_tentativas))
     chute = int(input('Digite o seu número: '))
     print('Você digitou: ', chute)
 
@@ -29,4 +29,4 @@ while(total_de_tentativas > 0):
     
     rodada += 1
 
-print('Fim do jogo')
+print('\nFim do jogo\n')
