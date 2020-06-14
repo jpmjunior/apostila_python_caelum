@@ -6,3 +6,5 @@
 print('******************************')
 print('*    Jogo da adivinhação     *')
 print('******************************')
+
+numero_secreto = 42
