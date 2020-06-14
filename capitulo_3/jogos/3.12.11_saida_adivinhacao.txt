@@ -1,0 +1,22 @@
+PS C:\Users\jpmou\OneDrive\developer\python\curso_pyhton_caelum\capitulo_3.12\jogos> python adivinhacao.py
+******************************
+*    Jogo da adivinhação     *
+******************************
+Digite o seu número: 21
+Você digitou:  21
+Você errou! O seu chute foi menor que o número secreto
+PS C:\Users\jpmou\OneDrive\developer\python\curso_pyhton_caelum\capitulo_3.12\jogos> python adivinhacao.py
+******************************
+*    Jogo da adivinhação     *
+******************************
+Digite o seu número: 42
+Você digitou:  42
+Você acertou!
+PS C:\Users\jpmou\OneDrive\developer\python\curso_pyhton_caelum\capitulo_3.12\jogos> python adivinhacao.py
+******************************
+*    Jogo da adivinhação     *
+******************************
+Digite o seu número: 67
+Você digitou:  67
+Você errou! O seu chute foi maior que o número secreto
+PS C:\Users\jpmou\OneDrive\developer\python\curso_pyhton_caelum\capitulo_3.12\jogos>
