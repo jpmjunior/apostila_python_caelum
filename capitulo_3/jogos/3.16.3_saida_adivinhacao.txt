@@ -1,0 +1,37 @@
+PS C:\Users\jpmou\OneDrive\developer\python\curso_python_caelum\capitulo_3\jogos> python adivinhacao.py
+
+******************************
+*    Jogo da adivinhação     *
+******************************
+
+Tentativa 1 de 3
+Digite o seu número: 40
+Você digitou:  40
+Você errou! O seu chute foi menor que o número secreto
+
+Tentativa 2 de 3
+Digite o seu número: 49
+Você digitou:  49
+Você errou! O seu chute foi maior que o número secreto
+
+Tentativa 3 de 3
+Digite o seu número: 42
+Você digitou:  42
+Você acertou!
+
+Fim do jogo
+
+PS C:\Users\jpmou\OneDrive\developer\python\curso_python_caelum\capitulo_3\jogos> python adivinhacao.py
+
+******************************
+*    Jogo da adivinhação     *
+******************************
+
+Tentativa 1 de 3
+Digite o seu número: 42
+Você digitou:  42
+Você acertou!
+
+Fim do jogo
+
+PS C:\Users\jpmou\OneDrive\developer\python\curso_python_caelum\capitulo_3\jogos>
