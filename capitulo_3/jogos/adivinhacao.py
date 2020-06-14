@@ -9,6 +9,7 @@ print('******************************')
 
 numero_secreto = 42
 total_de_tentativas = 3
+rodada = 1
 
 while(total_de_tentativas > 0):
     chute = int(input('Digite o seu número: '))
