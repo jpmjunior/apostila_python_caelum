@@ -27,4 +27,6 @@ while(total_de_tentativas > 0):
     elif(menor):
         print('Você errou! O seu chute foi menor que o número secreto')
     
-    total_de_tentativas -= 1
+    rodada += 1
+
+print('Fim do jogo')
