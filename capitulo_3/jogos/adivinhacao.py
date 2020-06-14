@@ -14,5 +14,7 @@ print('Você digitou: ', chute)
 
 if(numero_secreto == chute):
     print('Você acertou!')
-else:
-    print('Você errou!')
+elif(chute > numero_secreto):
+    print('Você errou! O seu chute foi maior que o número secreto')
+elif(chute < numero_secreto):
+    print('Você errou! O seu chute foi menor que o número secreto')
