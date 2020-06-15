@@ -23,5 +23,6 @@ while not acertou and not enforcou:
             if chute.upper() == letra.upper():
                 letras_acertadas[posicao] = letra
             posicao += 1
+        acertou = '_' not in letras_acertadas
     else:
         erros += 1
