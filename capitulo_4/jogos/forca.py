@@ -14,10 +14,10 @@ acertou = False
 enforcou = False
 erros = 0
 
-print(letras_acertadas)
+print('\n', letras_acertadas)
 
 while not acertou and not enforcou:
-    chute = input('Qual letra? ')
+    chute = input('\nQual letra? ')
 
     if chute in palavra_secreta:
         posicao = 0
@@ -33,8 +33,8 @@ while not acertou and not enforcou:
     print('Letras acertadas: ', letras_acertadas)
 
 if acertou:
-    print('Você ganhou!')
+    print('\nVocê ganhou!')
 else:
-    print('Você perdeu!')
+    print('\nVocê perdeu!')
 
-print('Fim de Jogo')
+print('Fim de Jogo\n')
