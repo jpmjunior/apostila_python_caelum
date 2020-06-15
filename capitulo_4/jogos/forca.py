@@ -14,6 +14,8 @@ acertou = False
 enforcou = False
 erros = 0
 
+print(letras_acertadas)
+
 while not acertou and not enforcou:
     chute = input('Qual letra? ')
 
