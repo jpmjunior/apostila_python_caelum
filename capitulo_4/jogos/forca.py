@@ -26,3 +26,4 @@ while not acertou and not enforcou:
         acertou = '_' not in letras_acertadas
     else:
         erros += 1
+        enforcou = erros >= 6
