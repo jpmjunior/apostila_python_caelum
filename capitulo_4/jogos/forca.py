@@ -17,8 +17,11 @@ erros = 0
 while not acertou and not enforcou:
     chute = input('Qual letra? ')
 
-    posicao = 0
-    for letra in palavra_secreta:
-        if chute.upper() == letra.upper():
-            letras_acertadas[posicao] = letra
-        posicao += 1
+    if chute in palavra_secreta:
+        posicao = 0
+        for letra in palavra_secreta:
+            if chute.upper() == letra.upper():
+                letras_acertadas[posicao] = letra
+            posicao += 1
+    else:
+        erros += 1
