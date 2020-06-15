@@ -1,0 +1,53 @@
+PS C:\Users\jpmou\dev\curso_python_caelum\capitulo_4\jogos> python forca.py
+
+*********************************
+***Bem vindo ao jogo da Forca!***
+*********************************
+
+ ['_', '_', '_', '_', '_', '_']
+
+Qual letra? a
+Letras acertadas:  ['_', 'a', '_', 'a', '_', 'a']
+
+Qual letra? b
+Letras acertadas:  ['b', 'a', '_', 'a', '_', 'a']
+
+Qual letra? c
+Letras acertadas:  ['b', 'a', '_', 'a', '_', 'a']
+
+Qual letra? n
+Letras acertadas:  ['b', 'a', 'n', 'a', 'n', 'a']
+
+Você ganhou!
+Fim de Jogo
+
+PS C:\Users\jpmou\dev\curso_python_caelum\capitulo_4\jogos> python forca.py
+
+*********************************
+***Bem vindo ao jogo da Forca!***
+*********************************
+
+ ['_', '_', '_', '_', '_', '_']
+
+Qual letra? x
+Letras acertadas:  ['_', '_', '_', '_', '_', '_']
+
+Qual letra? c
+Letras acertadas:  ['_', '_', '_', '_', '_', '_']
+
+Qual letra? z
+Letras acertadas:  ['_', '_', '_', '_', '_', '_']
+
+Qual letra? 5
+Letras acertadas:  ['_', '_', '_', '_', '_', '_']
+
+Qual letra? y
+Letras acertadas:  ['_', '_', '_', '_', '_', '_']
+
+Qual letra? i
+Letras acertadas:  ['_', '_', '_', '_', '_', '_']
+
+Você perdeu!
+Fim de Jogo
+
+PS C:\Users\jpmou\dev\curso_python_caelum\capitulo_4\jogos>
