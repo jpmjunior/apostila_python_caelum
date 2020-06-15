@@ -15,4 +15,4 @@ enforcou = False
 erros = 0
 
 while not acertou and not enforcou:
-    pass
+    chute = input('Qual letra? ')
