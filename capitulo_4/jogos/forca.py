@@ -5,7 +5,7 @@
 
 print('\n*********************************')
 print('***Bem vindo ao jogo da Forca!***')
-print('*********************************\n')
+print('*********************************')
 
 palavra_secreta = 'banana'
 letras_acertadas = ['_','_','_','_','_','_']
@@ -27,3 +27,5 @@ while not acertou and not enforcou:
     else:
         erros += 1
         enforcou = erros >= 6
+    
+    print('Letras acertadas: ', letras_acertadas)
