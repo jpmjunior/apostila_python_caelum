@@ -19,6 +19,6 @@ while not acertou and not enforcou:
 
     posicao = 0
     for letra in palavra_secreta:
-        if chute == letra:
+        if chute.upper() == letra.upper():
             letras_acertadas[posicao] = letra
         posicao += 1
