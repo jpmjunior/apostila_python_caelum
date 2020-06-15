@@ -6,3 +6,6 @@
 print('\n*********************************')
 print('***Bem vindo ao jogo da Forca!***')
 print('*********************************\n')
+
+palavra_secreta = 'banana'
+letras_acertadas = ['_','_','_','_','_','_']
