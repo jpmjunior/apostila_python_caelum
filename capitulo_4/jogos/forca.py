@@ -31,3 +31,10 @@ while not acertou and not enforcou:
         enforcou = erros >= 6
     
     print('Letras acertadas: ', letras_acertadas)
+
+if acertou:
+    print('Você ganhou!')
+else:
+    print('Você perdeu!')
+
+print('Fim de Jogo')
