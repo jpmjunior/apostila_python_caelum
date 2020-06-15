@@ -9,3 +9,10 @@ print('*********************************\n')
 
 palavra_secreta = 'banana'
 letras_acertadas = ['_','_','_','_','_','_']
+
+acertou = False
+enforcou = False
+erros = 0
+
+while not acertou and not enforcou:
+    pass
