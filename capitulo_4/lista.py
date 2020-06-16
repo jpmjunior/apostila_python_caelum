@@ -18,3 +18,7 @@ for numero in lista:
 # Imprime o número de ocorrências do 1º elemento da lista
 elemento_1 = lista[0]
 print('\nOcorrências do 1º elemento: ', lista.count(elemento_1))
+
+# Imprime a média dos elementos
+media = sum(lista) / len(lista)
+print('Média dos elementos: {:.2f}'.format(media))
