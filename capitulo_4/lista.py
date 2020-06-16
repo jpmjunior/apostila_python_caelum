@@ -22,3 +22,10 @@ print('\nOcorrências do 1º elemento: ', lista.count(elemento_1))
 # Imprime a média dos elementos
 media = sum(lista) / len(lista)
 print('Média dos elementos: {:.2f}'.format(media))
+
+# Imprime a soma dos valores negativos
+soma_negativos = 0.0
+for numero in lista:
+    if numero < 0:
+        soma_negativos += numero
+print('Soma de elementos negativos: {:.2f}'.format(soma_negativos))
