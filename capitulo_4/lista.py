@@ -12,3 +12,6 @@ print('Números pares: ', end='')
 for numero in lista:
     if numero % 2 == 0:
         print('{}; '.format(numero), end='')
+
+elemento_1 = lista[0]
+print('\nOcorrências do 1º elemento: ', lista.count(elemento_1))
