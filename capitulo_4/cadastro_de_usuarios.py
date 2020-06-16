@@ -5,9 +5,11 @@
 
 dict_usuario = {}
 
-dict_usuario['nome'] = input('Informe o nome: ')
+dict_usuario['nome'] = input('\nInforme o nome: ')
 dict_usuario['idade'] = input('Informe a idade: ')
 dict_usuario['cidade'] = input('Informe a cidade: ')
 
+print()
 for key in dict_usuario.keys():
     print(key + ': ' + dict_usuario[key])
+print()
