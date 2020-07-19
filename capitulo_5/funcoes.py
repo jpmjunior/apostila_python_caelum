@@ -1,5 +1,5 @@
 # Arquivo: funcoes.py (UTF-8)
-# Descrição: Função para calcular velocidade média. Exercício 5.5.1
+# Descrição: Função para calcular velocidade média. Exercício 5.5.2
 # Autor: Pinheiro Jr.
 # Data: 18/07/2020
 
@@ -7,4 +7,4 @@
 #   distancia: metros
 #   tempo: segundos
 def velocidade_media(distancia, tempo):
-    pass
+    velocidade = distancia/tempo
