@@ -1,5 +1,5 @@
 # Arquivo: funcoes.py (UTF-8)
-# Descrição: Prática de funções. Exercício 5.5.7
+# Descrição: Prática de funções. Exercício 5.5.8
 # Autor: Pinheiro Jr.
 # Data: 18/07/2020
 
@@ -14,3 +14,6 @@ def soma(num1, num2):
 
 def subtracao(num1, num2):
     return num1-num2
+
+def calculadora(num1, num2):
+    return soma(num1,num2), subtracao(num1,num2)
