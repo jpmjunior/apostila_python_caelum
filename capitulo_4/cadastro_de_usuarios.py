@@ -14,7 +14,7 @@ while resposta.upper() == 'S':
 
     lista_usuarios.append(dict_usuario)
 
-    resposta = input('\nDeseja cadastrar outro usuário? (s/n)')
+    resposta = input('\nDeseja cadastrar outro usuário? (s/n) ')
 
 for dict_usuario in lista_usuarios:
     print()
