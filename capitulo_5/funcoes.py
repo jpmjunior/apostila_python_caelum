@@ -1,5 +1,5 @@
 # Arquivo: funcoes.py (UTF-8)
-# Descrição: Função para calcular velocidade média. Exercício 5.5.5
+# Descrição: Prática de funções. Exercício 5.5.6
 # Autor: Pinheiro Jr.
 # Data: 18/07/2020
 
@@ -9,7 +9,5 @@
 def velocidade_media(distancia, tempo):
     return distancia/tempo
 
-print(velocidade_media(100,20))
-print(velocidade_media(150,22))
-print(velocidade_media(200,20))
-print(velocidade_media(50,3))
+def soma(num1, num2):
+    return num1+num2
